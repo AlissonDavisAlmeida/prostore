@@ -36,7 +36,7 @@ export const ModeToogle = () => {
                     }
                 </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent>
+            <DropdownMenuContent className="dark:bg-gray-600 bg-white shadow-lg rounded-md w-48">
                 <DropdownMenuLabel>Appearence</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuCheckboxItem className="cursor-pointer" checked={theme === "system"} onClick={() => setTheme("system")}>
