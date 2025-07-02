@@ -1,4 +1,4 @@
-import { Product } from "@/sample-data/db/sample-data"
+import { Product } from "@/db/sample-data"
 import { Productcard } from "./ProductCard"
 
 type ProductListProps = {

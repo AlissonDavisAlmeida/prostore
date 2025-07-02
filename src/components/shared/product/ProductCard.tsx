@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
-import { Product } from "@/sample-data/db/sample-data"
+import { Product } from "@/db/sample-data"
 import Image from "next/image"
 import Link from "next/link"
 import { ProductPrice } from "./ProductPrice"
